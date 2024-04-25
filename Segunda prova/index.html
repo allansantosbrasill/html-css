@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Mídia em HTML5</title>
+</head>
+<body class="black">
+    <h1>Imagem dinãmica</h1>
+    <p>tente abrir esse site em varios dispositivos ouy simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" sizes="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" sizes="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexisivel">
+    </picture>
+
+    <video width="560" poster="imagens/natureza.png" controls loop>
+        <source src="videos/video-teste.mp4" type="video/mp4">
+        <source src="videos/video-android.mp4" type="video/mp4">
+        <source src="videos/Video-Android.webm" type="video/webm">
+    </video>
+    <h1>Video do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TbNl7t0d1sI?si=CLv7JlZvjVaEZll5&amp;start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
