@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgba(0, 255, 255, 0.167);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar{
+    background-color: #180f4a4d;
+    display: flex;
+    flex-wrap: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo{
+    margin-left: 10%;
+    flex: 20%;
+    color: rgb(0, 0, 255);
+}
+
+.menu{
+    text-align: right;
+    padding: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.menu a:hover{
+    background-color: rgba(0, 0, 255, 0.197);
+    color:white;
+    border-top:3px solid rgb(0, 0, 255);
+    transition: 0.2s;
+}
+
+
+
+main {
+    background-color: bisque;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px 1px rgba(0, 0, 0, .2);
+    background-color: #fff;
+}
+
+img{
+    border-radius: 50%;
+}
+
+div.foto p.p1{
+    background-color: #180f4a4d;
+    display: inline-block;
+}
+
+.fim{
+    display: flex;
+    flex-wrap: row wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+
+}
+.fim a{
+    text-decoration: none;
+}
+
+.post-tags-and-content-text a:hover{
+    color: blue;
+}
+
+.fim a:hover{
+    color: blue;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.214);
+    color:black;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    margin-top: 50px;
+}
