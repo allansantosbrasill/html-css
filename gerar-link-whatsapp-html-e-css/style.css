@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 32px;
+    gap: 200px;
+    
+}
+
+.logo {
+    cursor: pointer;
+    margin-left: 12%;
+}
+
+.logo h1{
+    display: inline-block;
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+strong{
+    display: inline-block;
+    border: 3px solid black;
+    font-size: 0.7em;
+    font-weight: 700;
+    padding: 2px 6px;
+    
+}
+
+.navbar{
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    color: inherit;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.botao{
+    border: 1px solid black;
+    border-radius: 30px;
+    color: black;
+    padding: 5px 15px;
+}
+
+.botao:hover{
+    color: #fff;
+    background-color: black;
+}
+
+
+main section{
+    display: inline-block;
+    padding: 50px 500px 50px 0px;
+    margin-left: 12%;
+}
+
+main h1 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 32px; 
+}
+
+main p{
+    margin-bottom: 32px;
+}
+
+
+.bloco input{
+    padding: 14px;
+}
+
+.bloco {
+    display: flex;
+    font-size: 1.375em;
+    margin-bottom: 1rem;
+    gap: 15px;
+}
+
+.bloco1 input{
+    padding-right: 600px;
+}
+
+.botaod button{
+    display: inline-block;
+    color: #fff;
+    background-color: #F76031;
+    font-weight: bold;
+    padding: 1em 2em;
+    border-radius: 100px;
+    transition: all 100ms;
+    border: 1px solid transparent;
+}
+
+.botaod button:hover{
+    background-color: black;
+}
+
+

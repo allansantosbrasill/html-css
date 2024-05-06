@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+body{
+    background-color: #089186;
+    margin-top: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    cursor: pointer;
+    margin-left: 12%;
+}
+
+.logo h1{
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+h1 strong{
+    display: inline-block;
+    border: 2px solid white;
+    font-size: 0.7em;
+    font-weight: 700;
+    padding: 2px 6px;
+    
+}
+
+.css{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    padding: 0 5%;
+    justify-content: center;
+    background: #088278;
+    width: 350px;
+    height: 550px;
+    margin-top: 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+p {
+    display: inline-block;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    line-height: 1.5em;
+}
+
+
+.Nomecompletoinput input{ 
+    display: flex;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.E-mailinput input{ 
+    display: flex;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.Celular-ou-WhatsApp input{ 
+    display: flex;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.Defina-uma-senha input{ 
+    display: flex;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.Digite-novamente-a-senha input{ 
+    display: flex;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.chack{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.stg:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background-color: #27D86C;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+button:hover{
+    background-color: #27d86b90;
+}
+
+.cadrastro a{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.cadrastro a:hover{
+    text-decoration: underline;
+}
+
+.cadrastro{
+    justify-content: center;
+    align-items: center;
+}
+
+.cadrastro img{
+    margin-top: 5px;
+    height: 20px;
+    width: 30px;
+}
